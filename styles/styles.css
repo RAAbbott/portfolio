@@ -3,6 +3,22 @@ body {
   color: #666;
 }
 
+.splash-background {
+    background-image: url(../assets/code-background.jpg);
+    background-size: cover;
+    height: 900px;
+}
+
+.code-intro-container {
+  position: relative;
+  bottom: 50px;
+  padding-bottom: 100px;
+}
+
+.small-intro {
+  display: none;
+}
+
 .headshot {
   border-radius: 50%;
   margin: 20px;
@@ -26,6 +42,11 @@ body {
   margin-bottom: 50px;
 }
 
+.skills b {
+  font-size: 16px;
+  font-weight: 900;
+}
+
 i {
   font-size: 50px;
   display: block;
@@ -33,8 +54,16 @@ i {
 }
 
 .object {
-  background-color: #eee;
+  /* background-color: #eee; */
   padding-top: 20px;
+  background-color: rgb(100,100,100);
+  background-color: rgba(0,0,0, 0.7);
+  margin: 0;
+}
+
+pre {
+  font-size: 20px;
+  color: white;
 }
 
 .center {
@@ -43,13 +72,51 @@ i {
 
 .card-img-top {
   width: 100%;
-  height: 15vw;
+  height: 350px;
   object-fit: cover;
 }
 
 .card {
-  height: 300px;
+  position: relative;
+  width: 360px;
+  height: 350px;
   margin: 40px auto 40px auto;
+}
+
+.project-site, .project-github {
+  display:none;
+}
+
+.card:hover .card-img-top{
+  -webkit-filter: brightness(70%);
+  -moz-filter: brightness(70%);
+  -o-filter: brightness(70%);
+  -ms-filter: brightness(70%);
+  filter: brightness(70%);
+}
+
+.card:hover .project-link {
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+  filter: brightness(100%);
+  display: inline;
+  color: white;
+  text-decoration: none;
+}
+
+
+.card:hover .project-site {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+.card:hover .project-github {
+  position: absolute;
+  top: 190px;
+  right: 100px;
 }
 
 .fa-3 {
@@ -61,20 +128,25 @@ i {
 .fa-5 {
   font-size: 40px;
   display: inline;
-  margin-right: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .project-description {
-  margin: 150px 100px 0 0;
+  margin: 150px 100px 0 50px;
+  font-size: 20px;
 }
 
 .site-links {
-  float: right;
-  margin-right: 30px;
-  margin-top: 40px;
-}
-.site-links a {
-  color: black;
+  width: 210px;
+  margin: 40px 30px 0 30px;
+  background-color: rgb(100,100,100);
+  background-color: rgba(0,0,0,.5);
+  border: 0 solid black;
+  border-radius: 10px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+.site-links a {
+  color: white;
+  text-decoration: none;
+}
