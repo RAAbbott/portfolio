@@ -76,18 +76,15 @@ pre {
   object-fit: cover;
 }
 
-.card {
-  position: relative;
-  width: 360px;
-  height: 350px;
-  margin: 40px auto 40px auto;
-}
-
 .project-site, .project-github {
   display:none;
 }
 
-.card:hover .card-img-top{
+.project-img {
+  margin: 30px 40px 30px 40px;
+}
+
+.project-img:hover .img-thumbnail {
   -webkit-filter: brightness(70%);
   -moz-filter: brightness(70%);
   -o-filter: brightness(70%);
@@ -95,7 +92,7 @@ pre {
   filter: brightness(70%);
 }
 
-.card:hover .project-link {
+.project-img:hover .project-link {
   -webkit-filter: brightness(100%);
   -moz-filter: brightness(100%);
   -o-filter: brightness(100%);
@@ -106,17 +103,16 @@ pre {
   text-decoration: none;
 }
 
-
-.card:hover .project-site {
+.project-img:hover .project-site {
   position: absolute;
   top: 200px;
-  left: 100px;
+  left: 200px;
 }
 
-.card:hover .project-github {
+.project-img:hover .project-github {
   position: absolute;
   top: 190px;
-  right: 100px;
+  right: 200px;
 }
 
 .fa-3 {
