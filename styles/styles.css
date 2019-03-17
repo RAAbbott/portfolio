@@ -56,13 +56,14 @@ i {
 .object {
   /* background-color: #eee; */
   padding-top: 20px;
+  padding-bottom: 20px;
   background-color: rgb(100,100,100);
   background-color: rgba(0,0,0, 0.7);
   margin: 0;
 }
 
-pre {
-  font-size: 20px;
+code {
+  font-size: 18px;
   color: white;
 }
 
@@ -145,4 +146,19 @@ pre {
 .site-links a {
   color: white;
   text-decoration: none;
+}
+
+@media (max-width:1570px) {
+  .big-intro {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:1200px) {
+  .big-intro {
+    display: none;
+  }
+  .small-intro {
+    display: block;
+  }
 }
