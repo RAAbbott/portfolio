@@ -132,6 +132,7 @@ code {
 .project-description {
   padding-top: 10%;
   font-size: 20px;
+  margin-bottom: 40px;
 }
 
 .relative {
@@ -175,10 +176,38 @@ code {
   font-size: 15px;
 }
 
+@media (max-width:1650px) {
+  .project-img:hover .project-site {
+    top: 200px;
+    left: 200px;
+  }
+
+  .project-img:hover .project-github {
+    top: 190px;
+    right: 200px;
+  }
+}
+
 @media (max-width:1570px) {
   .big-intro {
     font-size: 15px;
   }
+}
+
+@media (max-width:1250px) {
+  .project-description {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .project-img {
+    margin: 10% 100px 10px 100px;
+  }
+
+  .about-me {
+    margin: 0 100px 130px 100px;
+  }
+
 }
 
 @media (max-width:1200px) {
@@ -187,5 +216,31 @@ code {
   }
   .small-intro {
     display: block;
+  }
+}
+
+@media (max-width:750px) {
+  .project-img {
+    margin: 10% 50px 10px 50px;
+  }
+
+  .project-img:hover .project-site {
+    top: 140px;
+    left: 150px;
+  }
+
+  .project-img:hover .project-github {
+    top: 130px;
+    right: 150px;
+  }
+}
+
+@media (max-width:633px) {
+  .top-margin {
+    margin-top: 80px;
+  }
+
+  .skills b {
+    font-size: 20px;
   }
 }
