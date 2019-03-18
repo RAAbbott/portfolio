@@ -189,7 +189,7 @@ code {
 }
 
 @media (max-width:1570px) {
-  .big-intro {
+  .intro {
     font-size: 15px;
   }
 }
@@ -210,15 +210,6 @@ code {
 
 }
 
-@media (max-width:1200px) {
-  .big-intro {
-    display: none;
-  }
-  .small-intro {
-    display: block;
-  }
-}
-
 @media (max-width:750px) {
   .project-img {
     margin: 10% 50px 10px 50px;
@@ -232,6 +223,10 @@ code {
   .project-img:hover .project-github {
     top: 130px;
     right: 150px;
+  }
+
+  .about-me {
+    margin: 0 20px 80px 20px;
   }
 }
 
