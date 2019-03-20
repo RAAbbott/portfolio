@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: #55efc4;
-  color: #666;
+  color: rgb(15,15,15);
 }
 
 h6 {
@@ -69,8 +69,8 @@ h6 {
 
 .object {
   /* background-color: #eee; */
-  padding-top: 40px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
   background-color: rgb(100,100,100);
   background-color: rgba(0,0,0, 0.7);
   margin: 0;
@@ -118,6 +118,13 @@ code {
   margin-left: 15px;
 }
 
+.fa-5-pdf {
+  font-size: 35px;
+  display: inline;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
 .project-description {
   padding-top: 10%;
   font-size: 20px;
@@ -129,7 +136,7 @@ code {
 }
 
 .site-links {
-  width: 210px;
+  width: 280px;
   margin: 40px 30px 0 30px;
   background-color: rgb(100,100,100);
   background-color: rgba(0,0,0,.5);
