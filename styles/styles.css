@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #55efc4;
   color: #666;
@@ -19,7 +23,7 @@ h6 {
   padding-bottom: 100px;
 }
 
-.small-intro {
+.intro-small {
   display: none;
 }
 
@@ -65,11 +69,15 @@ h6 {
 
 .object {
   /* background-color: #eee; */
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 10px;
   background-color: rgb(100,100,100);
   background-color: rgba(0,0,0, 0.7);
   margin: 0;
+}
+
+.small {
+  margin: 0 auto;
 }
 
 code {
@@ -86,7 +94,7 @@ code {
 }
 
 .project-img {
-  margin: 10% 100px 100px 100px;
+  margin: 10% 100px 150px 100px;
 }
 
 .project-img:hover .img-thumbnail {
@@ -95,29 +103,6 @@ code {
   -o-filter: brightness(70%);
   -ms-filter: brightness(70%);
   filter: brightness(70%);
-}
-
-.project-img:hover .project-link {
-  -webkit-filter: brightness(100%);
-  -moz-filter: brightness(100%);
-  -o-filter: brightness(100%);
-  -ms-filter: brightness(100%);
-  filter: brightness(100%);
-  display: inline;
-  color: white;
-  text-decoration: none;
-}
-
-.project-img:hover .project-site {
-  position: absolute;
-  top: 260px;
-  left: 200px;
-}
-
-.project-img:hover .project-github {
-  position: absolute;
-  top: 250px;
-  right: 200px;
 }
 
 .fa-3 {
@@ -180,15 +165,28 @@ code {
   font-size: 15px;
 }
 
-@media (max-width:1650px) {
+@media (min-width:1200px) {
+  .project-img:hover .project-link {
+    -webkit-filter: brightness(100%);
+    -moz-filter: brightness(100%);
+    -o-filter: brightness(100%);
+    -ms-filter: brightness(100%);
+    filter: brightness(100%);
+    display: inline;
+    color: white;
+    text-decoration: none;
+  }
+
   .project-img:hover .project-site {
-    top: 200px;
-    left: 200px;
+    position: absolute;
+    top: 40%;
+    left: 30%
   }
 
   .project-img:hover .project-github {
-    top: 190px;
-    right: 200px;
+    position: absolute;
+    top: 37%;
+    right: 30%;
   }
 }
 
@@ -198,20 +196,59 @@ code {
   }
 }
 
-@media (max-width:1250px) {
+
+@media (max-width:1319px) {
   .project-description {
-    text-align: center;
     font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 7%;
+  }
+
+  .project-description h3 {
+    text-align: center;
   }
 
   .project-img {
-    margin: 10% 100px 10px 100px;
+    margin: 5% 100px 0 100px;
   }
 
   .about-me {
     margin: 0 100px 130px 100px;
   }
+}
 
+@media (max-width:1199px) {
+  .project-site, .project-github {
+    display: inline;
+    position: relative;
+    top: 30px;
+    color: white;
+  }
+
+  .project-site {
+    left: 25%;
+  }
+
+  .project-github {
+    left: 63%;
+  }
+}
+
+@media (max-width:850px) {
+  .project-site {
+    left: 20%;
+  }
+
+  /* .intro-small {
+    display: inline-block;
+    position: relative;
+    left: 15%
+  }
+
+  .intro {
+    display: none;
+  } */
 }
 
 @media (max-width:750px) {
@@ -219,27 +256,35 @@ code {
     margin: 10% 50px 10px 50px;
   }
 
-  .project-img:hover .project-site {
-    top: 140px;
-    left: 150px;
-  }
-
-  .project-img:hover .project-github {
-    top: 130px;
-    right: 150px;
-  }
+  /* .intro-small {
+    display: inline-block;
+    position: relative;
+    left: 5%
+  } */
 
   .about-me {
     margin: 0 20px 80px 20px;
   }
 }
 
-@media (max-width:633px) {
+@media (max-width:600px) {
+  .project-site {
+    left: 15%;
+  }
+}
+
+@media (max-width:575px) {
   .top-margin {
     margin-top: 80px;
   }
 
   .skills b {
     font-size: 20px;
+  }
+}
+
+@media (max-width:500px) {
+  .project-site {
+    left: -15px;
   }
 }
