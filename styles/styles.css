@@ -87,12 +87,12 @@ h6 {
   font-weight: 900;
   margin: auto;
 }
-
+/* 
 .skills i{
-  /* font-size: 50px;
+  font-size: 50px;
   display: block;
-  margin-top: 30px; */
-}
+  margin-top: 30px;
+} */
 
 .project-description i {
   display: inline;
