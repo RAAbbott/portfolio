@@ -3,8 +3,10 @@ html {
 }
 
 body {
-  background-color: #55efc4;
+  /* background-color: #55efc4; */
+  background-color: white;
   color: rgb(15,15,15);
+  font-family: 'Roboto Slab', serif;
 }
 
 h6 {
@@ -12,7 +14,7 @@ h6 {
 }
 
 .splash-background {
-    background-image: url(../assets/code-background.jpg);
+    /* background-image: url(../assets/code-background.jpg); */
     background-size: cover;
     height: 900px;
 }
@@ -50,15 +52,46 @@ h6 {
   margin-bottom: 50px;
 }
 
-.skills b {
-  font-size: 16px;
-  font-weight: 900;
+.skill-card {
+  border: 0.5px solid rgba(0,0,0,0.1);
+  box-shadow: 0px 3px 4px #aaaaaa;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  color: rgba(0,0,0, 0.5);
 }
 
-.skills i {
+.skill-card-text {
+  margin-left: 50px; 
+  bottom: 10px; 
+  position: relative;
+}
+
+.material-checkmark {
+  top: 5px; 
+  position: relative;
+}
+
+.skill-card i {
   font-size: 50px;
-  display: block;
+  /* display: block; */
   margin-top: 30px;
+
+}
+
+.skills b{
+  font-size: 16px;
+  font-weight: 900;
+  margin: auto;
+}
+
+.skills i{
+  /* font-size: 50px;
+  display: block;
+  margin-top: 30px; */
 }
 
 .project-description i {
@@ -138,7 +171,7 @@ code {
 .site-links {
   width: 280px;
   margin: 40px 30px 0 30px;
-  background-color: rgb(100,100,100);
+  /* background-color: rgb(100,100,100); */
   background-color: rgba(0,0,0,.5);
   border: 0 solid black;
   border-radius: 10px;
