@@ -22,10 +22,10 @@
       <div class="row">
         <div class="col-sm-12">
           <nav class="site-links animated fadeInUp float-right">
-            <a href="https://github.com/RAAbbott/portfolio/raw/master/robertAbbottResume.pdf" class="hvr-grow" download="robertAbbottResume.pdf"><i class="fa fa-file-text fa-5-pdf" aria-hidden="true"></i></a>
-            <a href="https://github.com/RAAbbott" target="_blank" class="hvr-grow"><i class="fa fa-github fa-5" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/raabbott/" target="_blank" class="hvr-grow"><i class="fa fa-linkedin-square fa-5" aria-hidden="true"></i></a>
-            <a href="mailto:aabbott.business@gmail.com" class="hvr-grow"><i class="fa fa-envelope fa-5" aria-hidden="true"></i></a>
+            <a href="https://github.com/RAAbbott/portfolio/raw/master/robertAbbottResume.pdf" class="hvr-grow" download="robertAbbottResume.pdf" title="Download My Resume"><i class="fa fa-file-text fa-5-pdf" aria-hidden="true"></i></a>
+            <a href="https://github.com/RAAbbott" target="_blank" class="hvr-grow" title="View My GitHub"><i class="fa fa-github fa-5" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/raabbott/" target="_blank" class="hvr-grow" title="Visit My LinkedIn"><i class="fa fa-linkedin-square fa-5" aria-hidden="true"></i></a>
+            <a href="mailto:aabbott.business@gmail.com" class="hvr-grow" title="Shoot Me An Email"><i class="fa fa-envelope fa-5" aria-hidden="true"></i></a>
           </nav>
         </div>
       </div>
@@ -38,12 +38,21 @@
       </div>
     </div>
     <div class="container-fluid code-intro-container animated fadeInUpBig">
-      <div class="row text-center">
-        <div class="col-sm-12">
-          <div class="object">
-             <span class="intro">
-               <code>let myIntro = { name: <b>"Robert Abbott"</b>, occupation: <b>"Software Engineer"</b>, highlyMotivated: <b>true</b>, creative: <b>true</b>, readyToWork: <b>true</b> }</code>
-             </span>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3 col-md-10 offset-md-1 col-xs-12">
+          <div class="skill-card" id="small-card">
+             <div class="intro">
+               <!-- <code>let myIntro = { name: <b>"Robert Abbott"</b>, occupation: <b>"Software Engineer"</b>, highlyMotivated: <b>true</b>, creative: <b>true</b>, readyToWork: <b>true</b> }</code> -->
+               <!-- <code> -->
+                <span style="color:#b83370">const</span> <span style="color:#8c74b2">intro =</span> {<br>
+                  <span class="tab">name: "Robert Abbott",<br>
+                  <span class="tab">occupation: "Software Engineer",<br>
+                  <span class="tab">highlyMotivated: true,<br>
+                  <span class="tab">creative: true,<br>
+                  <span class="tab">readyToWork: true<br>
+                <span style="margin-right:150px;">}</span>
+              <!-- </code> -->
+            </div>
            </div>
          </div>
        </div>
@@ -52,26 +61,30 @@
 
   
   <!-- Skills Section -->
-  
   <div class="container-fluid">
+    <div class="row text-center section-head">
+      <div class="col-sm-12">
+        <h3><u>Skills + Experience</u></h3>
+      </div>
+    </div>
 
     <!-- Front End -->
     <div class="row">
-      <div class="col-sm-2 offset-sm-1 text-center">
+      <div class="col-lg-3 col-md-12 text-center">
         <b>Front End</b>
         <div class="skill-card">
           <i class="devicon-html5-plain-wordmark colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
+          <span class="skill-card-text green"> <span class="material-icons material-checkmark">done</span> Proficient</span>
           <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
         </div>
         <div class="skill-card">
           <i class="devicon-css3-plain-wordmark colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
+          <span class="skill-card-text green"> <span class="material-icons material-checkmark">done</span> Proficient</span>
           <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
         </div>
         <div class="skill-card">
           <i class="devicon-javascript-plain colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
+          <span class="skill-card-text green"> <span class="material-icons material-checkmark">done</span> Proficient</span>
           <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
         </div>
         <div class="skill-card">
@@ -82,16 +95,21 @@
       </div>
 
       <!-- Back End -->
-      <div class="col-sm-2 text-center">
-        <b>Back End</b>
+      <div class="col-lg-3 col-md-12 text-center skills-container">
+        <b class="skills-title">Back End</b>
         <div class="skill-card">
           <i class="devicon-nodejs-plain-wordmark colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
+          <span class="skill-card-text green"> <span class="material-icons material-checkmark">done</span> Proficient</span>
           <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
         </div>
         <div class="skill-card">
           <i class="devicon-python-plain-wordmark colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
+          <span class="skill-card-text green"> <span class="material-icons material-checkmark">done</span> Proficient</span>
+          <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
+        </div>
+        <div class="skill-card">
+          <i class="devicon-java-plain-wordmark colored"></i>
+          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Experience</span>
           <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
         </div>
         <div class="skill-card">
@@ -99,39 +117,24 @@
           <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Experience</span>
           <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
         </div>
-        <div class="skill-card">
-          <i class="devicon-mongodb-plain-wordmark colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Experience</span>
-          <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
-        </div>
-      </div>
-
-      <!-- Source Control -->
-      <div class="col-sm-2 text-center">
-        <b>Source Control</b>
-        <div class="skill-card">
-          <i class="devicon-git-plain-wordmark colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
-          <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
-        </div>
-        <div class="skill-card">
-          <i class="devicon-github-plain-wordmark colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
-          <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
-        </div>
-        <div class="skill-card">
-          <i class="devicon-bitbucket-plain-wordmark colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
-          <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
-        </div>
       </div>
 
       <!-- Frameworks -->
-      <div class="col-sm-2 text-center">
-        <b>Frameworks</b>
+      <div class="col-lg-3 col-md-12 text-center skills-container">
+        <b class="skills-title">Frameworks</b>
         <div class="skill-card">
           <i class="devicon-vuejs-plain colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
+          <span class="skill-card-text green"> <span class="material-icons material-checkmark">done</span> Proficient</span>
+          <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
+        </div>
+        <div class="skill-card">
+          <i class="devicon-backbonejs-plain-wordmark colored"></i>
+          <span class="skill-card-text green"> <span class="material-icons material-checkmark">done</span> Proficient</span>
+          <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
+        </div>
+        <div class="skill-card">
+          <i class="devicon-express-original-wordmark colored"></i>
+          <span class="skill-card-text green"> <span class="material-icons material-checkmark">done</span> Proficient</span>
           <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
         </div>
         <div class="skill-card">
@@ -139,39 +142,47 @@
           <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Experience</span>
           <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
         </div>
-        <div class="skill-card">
-          <i class="devicon-bootstrap-plain-wordmark colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
-          <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
-        </div>
-        <div class="skill-card">
-          <i class="devicon-express-original-wordmark colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
-          <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
-        </div>
       </div>
 
-      <div class="col-sm-2 text-center">
-        <b>Front End</b>
+      <!-- Source Control -->
+      <!-- <div class="col-sm-2 text-center">
+        <b>Source Control</b>
         <div class="skill-card">
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
-          <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
+          <i class="devicon-git-plain-wordmark colored"></i>
+          <span class="skill-card-text green"> <span class="material-icons material-checkmark">done</span> Proficient</span>
         </div>
         <div class="skill-card">
-          <i class="devicon-css3-plain-wordmark colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
-          <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
+          <i class="devicon-github-plain-wordmark colored"></i>
+          <span class="skill-card-text green"> <span class="material-icons material-checkmark">done</span> Proficient</span>
         </div>
         <div class="skill-card">
-          <i class="devicon-javascript-plain colored"></i>
-          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span>
-          <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
+          <i class="devicon-bitbucket-plain-wordmark colored"></i>
+          <span class="skill-card-text green"> <span class="material-icons material-checkmark">done</span> Proficient</span>
         </div>
         <div class="skill-card">
-          <i class="devicon-typescript-plain colored"></i>
+          <i class="devicon-gitlab-plain colored"></i>
+          <span class="skill-card-text green"> <span class="material-icons material-checkmark">done</span>Proficient</span>
+        </div>
+      </div> -->
+
+      <!-- Database / Tools -->
+      <div class="col-lg-3 col-md-12 text-center skills-container">
+        <b class="skills-title">Database/Tools</b>
+        <div class="skill-card">
+          <i class="devicon-git-plain-wordmark colored"></i>
+          <span class="skill-card-text green"> <span class="material-icons material-checkmark">done</span> Proficient</span>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-mongodb-plain-wordmark colored"></i>
           <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Experience</span>
-          <!-- <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Proficient</span> -->
+        </div>
+        <div class="skill-card-custom">
+          <img src="assets/sql_server.png" width="80" height="80">
+          <span class="skill-card-text-custom"> <span class="material-icons material-checkmark">done</span> Experience</span>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-docker-plain colored"></i>
+          <span class="skill-card-text"> <span class="material-icons material-checkmark">done</span> Experience</span>
         </div>
       </div>
     </div>
@@ -184,28 +195,62 @@
 
 
   <!-- Project Showcase -->
-
+  <br>
+  <br>
   <div class="project-showcase">
 
-    <!-- Abbott Artistry -->
     <div class="container-fluid projects">
+
+      <div class="row text-center section-head">
+        <div class="col-sm-12">
+          <h3><u>Project Showcase</u></h3>
+        </div>
+      </div>
+
+      <!-- EOM -->
       <div class="row">
         <div class="col-xl-6">
           <div class="project-img">
-            <a href="https://raabbott.github.io/abbottartistry/index.html" target="_blank"><img src="./assets/AbbottArtistryScreenshot.PNG" alt="" class="img-thumbnail"></a>
-            <a href="https://raabbott.github.io/abbottartistry/index.html" target="_blank" class="project-site project-link hvr-grow"><i class="fa fa-external-link fa-3x" aria-hidden="true"></i></a>
-            <a href="https://github.com/RAAbbott/abbottartistry" target="_blank" class="project-github project-link hvr-grow"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+            <a href="https://easyordermanager.netlify.app/" target="_blank"><img src="./assets/eom2.png" alt="portfolio" class="img-thumbnail"></a>
+            <a href="https://easyordermanager.netlify.app/" target="_blank" class="project-site project-link hvr-grow"><i class="fa fa-external-link fa-3x" aria-hidden="true"></i></a>
+            <a href="https://github.com/RAAbbott/shopify-portal" target="_blank" class="project-github project-link hvr-grow"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
           </div>
         </div>
         <div class="col-xl-6">
           <div class="project-description">
-            <h3><u>Abbott Artistry</u></h3>
-            <p>One of my first web development projects. Abbott Artistry is a website I built for my wife's macrame business using HTML, CSS/Bootstrap, and Javascript.</p>
+            <h3><u>Easy Order Manager</u></h3>
+            <p>
+              I built this application for my wife's shopify store to address multiple issues she had with the order fulfillment and management process. The link will take you to a demo version that displays the funcitonality and practicality of the app. I am currently in the process of submitting this to the Shopify App Store.
+              The frontend is built using VueJS with custom styling, and the backend is built with NodeJS. The backend interacts with Shopify's REST API.
+            </p>
             <div class="center">
-              <i class="devicon-html5-plain-wordmark colored"></i>
-              <i class="devicon-css3-plain-wordmark colored"></i>
-              <i class="devicon-bootstrap-plain-wordmark colored"></i>
-              <i class="devicon-javascript-plain colored"></i>
+              <i class="devicon-vuejs-plain-wordmark colored"></i>
+              <i class="devicon-nodejs-plain-wordmark colored"></i>
+              <i class="devicon-express-original-wordmark colored"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Project Script -->
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="project-img">
+            <a href="https://github.com/RAAbbott/npScript" target="_blank"><img src="./assets/np.png" alt="" class="img-thumbnail"></a>
+            <a href="https://github.com/RAAbbott/npScript" target="_blank" class="project-site project-link hvr-grow"><i class="fa fa-external-link fa-3x" aria-hidden="true"></i></a>
+            <a href="https://github.com/RAAbbott/npScript" target="_blank" class="project-github project-link hvr-grow"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="project-description">
+            <h3><u>New Project Creation Script</u></h3>
+            <p>
+              The 'NP Script' is a command-line script I created to automate and fast-track the creation of new projects. It allows the user to designate a destination folder where the project
+              will be created, specify the project type (currently there are HTML, Vue, Java, Python, Flutter, and Node project types available), and includes an option to automatically initialize a git repository locally
+              as well as a remote on GitHub. I use this script very often and allows me to be much more efficient with my time.
+            </p>
+            <div class="center">
+              <i class="devicon-nodejs-plain-wordmark colored"></i>
             </div>
           </div>
         </div>
@@ -236,16 +281,40 @@
         </div>
       </div>
 
+
+      <!-- Abbott Artistry -->
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="project-img">
+            <a href="https://raabbott.github.io/abbottartistry/index.html" target="_blank"><img src="./assets/AbbottArtistryScreenshot.PNG" alt="" class="img-thumbnail"></a>
+            <a href="https://raabbott.github.io/abbottartistry/index.html" target="_blank" class="project-site project-link hvr-grow"><i class="fa fa-external-link fa-3x" aria-hidden="true"></i></a>
+            <a href="https://github.com/RAAbbott/abbottartistry" target="_blank" class="project-github project-link hvr-grow"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="project-description">
+            <h3><u>Abbott Artistry</u></h3>
+            <p>One of my first web development projects. Abbott Artistry is a website I built for my wife's macrame business using HTML, CSS/Bootstrap, and Javascript.</p>
+            <div class="center">
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-bootstrap-plain-wordmark colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Daily Journal -->
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-xl-6">
           <div class="project-img">
             <a href="https://vast-oasis-74502.herokuapp.com/" target="_blank"><img src="./assets/blog-project.PNG" alt="blog-project" class="img-thumbnail"></a>
             <a href="https://vast-oasis-74502.herokuapp.com/" target="_blank" class="project-site project-link hvr-grow"><i class="fa fa-external-link fa-3x" aria-hidden="true"></i></a>
             <a href="https://github.com/RAAbbott/blog-project" target="_blank" class="project-github project-link hvr-grow"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-xl-6">
           <div class="project-description">
             <h3><u>Personal Blog</u></h3>
             <p>
@@ -265,7 +334,7 @@
       <div class="row">
         <div class="col-xl-6">
           <div class="project-img">
-            <a href="https://raabbott.github.io/portfolio" target="_blank"><img src="./assets/portfolio.PNG" alt="portfolio" class="img-thumbnail"></a>
+            <a href="https://raabbott.github.io/portfolio" target="_blank"><img src="./assets/portfolio2.PNG" alt="portfolio" class="img-thumbnail"></a>
             <a href="https://raabbott.github.io/portfolio" target="_blank" class="project-site project-link hvr-grow"><i class="fa fa-external-link fa-3x" aria-hidden="true"></i></a>
             <a href="https://github.com/RAAbbott/portfolio-site" target="_blank" class="project-github project-link hvr-grow"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
           </div>
@@ -287,15 +356,17 @@
 
       <hr>
 
-      <div class="row">
+      <div class="row disclaimer">
         <div class="col-sm-12 text-center">
-          <h6>*Additional personal projects are currently being added. Professional projects I have worked on contain sensitive or confidential information relating to the company so I am unable to display them.</h6>
+          <h3><br>Professional projects worked on include: </h3> <h6><br><a href="https://www.dentrixascend.com/" target="_blank">Dentrix Ascend (SAAS Dental Practice Management Solution)</a><br><a href="https://tech.churchofjesuschrist.org/project/2-general/7-internet-mission-office-system" target="_blank">IMOS (Cloud-based Internet Mission Office System created by the Church of Jesus Christ of Latter-day Saints)</a><br><a href="https://www.linkedin.com/company/offer-space/about/" target="_blank">Offer Space</a> <br> </h6>
         </div>
       </div>
 
       <hr>
     </div>
   </div>
+
+  <!-- End Project Showcase -->
   
 
   <!-- About Me Section -->
@@ -305,10 +376,11 @@
         <div class="about-me">
           <h3 class="text-center">About Me</h3>
           <p class="small-padding">
-            My name is Robert Abbott, and I love to code! I am a CS student at Utah Valley University with experience in Front-End Development.
-            Lately I have been spending most of my time on front end projects, and have worked with front end technologies for almost two years.
-            Currently I am interning as a web developer at the Church of Jesus Christ of Latter-Day Saints, and I am mostly working with the Angular framework building User
-            Interfaces for a large application that is used all around the world. Some of my other hobbies include songwriting and music production, spending time with my family, and learning
+            My name is Robert Abbott, and I love to code! I got my first taste of programming when I decided to take a CS class at UVU as a freshman. I fell in love and have been improving my skills ever since.
+            Though I have not yet graduated (expected graduation Fall 2021), I landed a development internship at the Church of Jesus Christ of Latter-day Saints working on a SAAS my sophomore year after having some web dev experience at my previous job as a technical operations admin. 
+            Immediately after the internship ended I took the skills I learned and got a full-time job as a Software Engineer at Henry Schein One working on Dentrix Ascend, a cloud-based dental practice software. 
+            I am still doing everything I can to improve my skills as a programmer and further my career as a Software Engineer.
+            Some of my other hobbies include songwriting and music production, spending time with my family, and learning
             about new and unfamiliar things. I have a strong work ethic that's focused on honesty, value, and results, and I am on the lookout for my next opportunity
             with an amazing company! If you'd like to get in touch or know more about me, you can reach me at <a href="mailto:aabbott.business@gmail.com">aabbott.business@gmail.com</a>.
           </p>
